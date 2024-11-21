@@ -11,11 +11,14 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
+        // My link to Jitpack to access the GitHub repo
+        maven(url = "https://jitpack.io")
     }
 }
 
